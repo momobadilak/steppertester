@@ -18,6 +18,7 @@ http://amzn.com/B00VY32VU4 and https://learn.adafruit.com/adafruit-tb6612-h-brid
 
 ## NEMA17 ZJchao bi-polar stepper motor: 
 http://amzn.com/B00C4P382G 
+
 BTW - the ZJchao motor actually says "SUNCOR MOTOR SC42STH38-1304AF"
 
 ## Helpful adafruit tutorial about stepper motors
