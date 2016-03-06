@@ -22,6 +22,8 @@ http://amzn.com/B00C4P382G
 
 BTW - the ZJchao motor actually says "SUNCOR MOTOR SC42STH38-1304AF"
 
-## A Helpful adafruit tutorial about stepper motors
+### A Helpful adafruit tutorial about stepper motors
 https://learn.adafruit.com/adafruit-tb6612-h-bridge-dc-stepper-motor-driver-breakout/using-stepper-motors
 
+### Here's a video showing the initial code working
+https://www.youtube.com/watch?v=6pxn9EZSPho
