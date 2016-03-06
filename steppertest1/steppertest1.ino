@@ -22,29 +22,6 @@
   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS 
   IN THE SOFTWARE.
-
-  About this hardware and software used:
-
-  Paying with a NEMA17 ZJchao bi-polar stepper motor: 
-  http://amzn.com/B00C4P382G 
-  BTW - the ZJchao motor actually says "SUNCOR MOTOR SC42STH38-1304AF"
-
-  
-  Using the adafruit TB6612 breakout board: 
-  http://amzn.com/B00VY32VU4 & https://learn.adafruit.com/adafruit-tb6612-h-bridge-dc-stepper-motor-driver-breakout/overview
-  
-  Using arduino uno R3: 
-  https://www.arduino.cc/en/Main/ArduinoBoardUno
-  
-  This adafruit tutorial was very helpful: 
-  https://learn.adafruit.com/adafruit-tb6612-h-bridge-dc-stepper-motor-driver-breakout/using-stepper-motors
-  
-  This is the DC-DC converter I use to go from 12V input to the correct motor voltate
-  which in my case is 3.4 volts -- according to the schematic on the amazon page.
-  http://amzn.com/B014Y3OT6Y
-  
-  DC-DC converter is based on this IC : 
-  http://datasheet.octopart.com/MP1584EN-LF-Z-Monolithic-Power-Systems-datasheet-26504489.pdf
 */
 
 #include <Stepper.h>
@@ -238,4 +215,3 @@ void motorStandby() {
   digitalWrite(MOTOR_B1_POS,LOW);
   digitalWrite(MOTOR_B2_NEG,LOW);
 }
-
